@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+<style>
+
+.form1{
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin:10% 40% 40% 40%;
+    display: block;
+    text-align: center;
+}
+
+
+</style>
+
+    </head>
+    <body>
+        <div class="form1">
+        <form action="https://formspree.io/f/mjvqpjyo" method="POST">
+            <label>
+                imię i nazwisko:<br>
+                <input type="text" name="imie_nazwosko"><br>
+              </label>
+        <label>
+          emeil:<br>
+          <input type="email" name="email"><br>
+        </label>
+        <label>
+            numer telefonu:<br>
+            <input type="tel" name="numer"><br>
+          </label>
+        <label>
+          wiadomość:<br> <textarea name="message"></textarea><br>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    </body>
+</html>
